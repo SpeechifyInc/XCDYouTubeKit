@@ -13,10 +13,20 @@ let package = Package(
             exclude: [
                 "XCDYouTubeKit/Info.plist",
                 "XCDYouTubeKit/Configuration.plist",
-                "XCDYouTubeKit/AppledocSettings.plist"
+                "XCDYouTubeKit/AppledocSettings.plist",
+                "XCDYouTubeLogger+Private.h",
+                "XCDYouTubeVideo+Private.h",
+                "XCDURLGETOperation.h",
+                "XCDYouTubeDashManifestXML.h",
+                "XCDURLHEADOperation.h",
+                "XCDYouTubePlayerScript.h",
+                "XCDYouTubeVideoWebpage.h"
             ],
             sources: ["XCDYouTubeKit"],
-            publicHeadersPath: "XCDYouTubeKit"
+            publicHeadersPath: "XCDYouTubeKit/Public",
+            cxxSettings: [
+                .headerSearchPath("Public")
+            ]
         )
     ]
 )

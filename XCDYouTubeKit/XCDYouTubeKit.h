@@ -11,6 +11,7 @@
 #import "XCDYouTubeVideo.h"
 #import "XCDYouTubeVideoOperation.h"
 #import "XCDYouTubeVideoQueryOperation.h"
+#import "XCDYouTubeVideoPlayerViewController.h"
 
 #if TARGET_OS_IOS || (!defined(TARGET_OS_IOS) && TARGET_OS_IPHONE)
 #import "XCDYouTubeVideoPlayerViewController.h"

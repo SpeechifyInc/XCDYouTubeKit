@@ -166,7 +166,7 @@
 		C2ADD72C1BE6AC3100B182ED /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 		C2C5D2961A6E5AB900F2B3F8 /* VideoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPickerController.h; sourceTree = "<group>"; };
 		C2C5D2971A6E5AB900F2B3F8 /* VideoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPickerController.m; sourceTree = "<group>"; };
-		C2CEABA61C0EFBE80077C5CA /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		C2CEABA61C0EFBE80077C5CA /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C2CF7CEC1B17737400C356EA /* ContextLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextLogFormatter.h; sourceTree = "<group>"; };
 		C2CF7CED1B17737400C356EA /* ContextLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextLogFormatter.m; sourceTree = "<group>"; };
 		C2D627591BE3C648005367FF /* XCDYouTubeKit tvOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCDYouTubeKit tvOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -480,6 +480,7 @@
 				ORGANIZATIONNAME = "Cédric Luthi";
 				TargetAttributes = {
 					C274159D17F491230026834B = {
+						DevelopmentTeam = D9Y337MSAJ;
 						LastSwiftMigration = 1110;
 					};
 					C2D627581BE3C648005367FF = {
@@ -781,7 +782,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "OS X Demo/Supporting Files/XCDYouTubeKit OS X Demo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit.demo.osx;
+				MARKETING_VERSION = 2.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechify.ytkit-fork.osx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -807,7 +809,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "OS X Demo/Supporting Files/XCDYouTubeKit OS X Demo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit.demo.osx;
+				MARKETING_VERSION = 2.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechify.ytkit-fork.osx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -831,7 +834,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2.15.2;
+				CURRENT_PROJECT_VERSION = 2.15.3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -875,7 +878,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.15.2;
+				CURRENT_PROJECT_VERSION = 2.15.3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -905,9 +908,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D9Y337MSAJ;
 				INFOPLIST_FILE = "iOS Demo/Supporting Files/XCDYouTubeKit iOS Demo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit.demo.ios;
+				MARKETING_VERSION = 2.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechify.ytkit-fork";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Demo/XCDYouTubeKit iOS Demo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -924,9 +929,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D9Y337MSAJ;
 				INFOPLIST_FILE = "iOS Demo/Supporting Files/XCDYouTubeKit iOS Demo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit.demo.ios;
+				MARKETING_VERSION = 2.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechify.ytkit-fork";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Demo/XCDYouTubeKit iOS Demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -943,7 +950,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "tvOS Demo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit.demo.tvos;
+				MARKETING_VERSION = 2.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechify.ytkit-fork.tvos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -958,7 +966,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "tvOS Demo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit.demo.tvos;
+				MARKETING_VERSION = 2.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechify.ytkit-fork.tvos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
